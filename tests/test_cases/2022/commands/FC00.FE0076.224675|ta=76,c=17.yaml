@@ -1,0 +1,23 @@
+command_id: FC00.FE0076.224675|ta=76,c=17
+test_cases:
+- expected_values:
+    CUPRA_HVBAT_V_TRAC: 384.5
+  response: 17FE0076056246750F05
+- expected_values:
+    CUPRA_HVBAT_V_TRAC: 393.3
+  response: 17FE0076056246750F5D
+- expected_values:
+    CUPRA_HVBAT_V_TRAC: 393.5
+  response: 17FE0076056246750F5F
+- expected_values:
+    CUPRA_HVBAT_V_TRAC: 394.8
+  response: 17FE0076056246750F6C
+- expected_values:
+    CUPRA_HVBAT_V_TRAC: 395.5
+  response: 17FE0076056246750F73
+- expected_values:
+    CUPRA_HVBAT_V_TRAC: 395.8
+  response: 17FE0076056246750F76
+- expected_values:
+    CUPRA_HVBAT_V_TRAC: 396.3
+  response: 17FE0076056246750F7B
