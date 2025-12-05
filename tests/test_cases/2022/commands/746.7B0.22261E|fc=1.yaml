@@ -1,0 +1,10 @@
+command_id: 746.7B0.22261E|fc=1
+test_cases:
+- expected_values:
+    CUPRA_RECIRC_FLAP_ACT_PCT: 0
+    CUPRA_RECIRC_FLAP_ACT_STEPS: 40
+  response: 7B00662261E002800
+- expected_values:
+    CUPRA_RECIRC_FLAP_ACT_PCT: 66
+    CUPRA_RECIRC_FLAP_ACT_STEPS: 157
+  response: 7B00662261E009D84

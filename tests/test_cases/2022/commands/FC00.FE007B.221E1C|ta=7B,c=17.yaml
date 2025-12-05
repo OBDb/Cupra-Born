@@ -1,0 +1,11 @@
+command_id: FC00.FE007B.221E1C|ta=7B,c=17
+test_cases:
+- expected_values:
+    CUPRA_HVBAT_I_LIM_DSCH: 701
+  response: 17FE007B05621E1C0DB1
+- expected_values:
+    CUPRA_HVBAT_I_LIM_DSCH: 714.6
+  response: 17FE007B05621E1C0DF5
+- expected_values:
+    CUPRA_HVBAT_I_LIM_DSCH: 716.8
+  response: 17FE007B05621E1C0E00

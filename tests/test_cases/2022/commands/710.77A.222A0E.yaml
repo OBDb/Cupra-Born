@@ -1,0 +1,14 @@
+command_id: 710.77A.222A0E
+test_cases:
+- expected_values:
+    CUPRA_BAT_INT_R: 0
+    CUPRA_SSB_R: 0
+  response: 77A04622A0E00
+- expected_values:
+    CUPRA_BAT_INT_R: 0.6
+    CUPRA_SSB_R: 0.6
+  response: 77A04622A0E03
+- expected_values:
+    CUPRA_BAT_INT_R: 6.4
+    CUPRA_SSB_R: 6.4
+  response: 77A04622A0E20
