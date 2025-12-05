@@ -1,0 +1,26 @@
+command_id: FC00.FE0076.223DF8|ta=76,c=17
+test_cases:
+- expected_values:
+    CUPRA_MOTOR_RPM: 0
+  response: 17FE007605623DF80000
+- expected_values:
+    CUPRA_MOTOR_RPM: 184
+  response: 17FE007605623DF80170
+- expected_values:
+    CUPRA_MOTOR_RPM: 204
+  response: 17FE007605623DF80198
+- expected_values:
+    CUPRA_MOTOR_RPM: 3026
+  response: 17FE007605623DF817A4
+- expected_values:
+    CUPRA_MOTOR_RPM: 4283
+  response: 17FE007605623DF82176
+- expected_values:
+    CUPRA_MOTOR_RPM: 5090
+  response: 17FE007605623DF827C4
+- expected_values:
+    CUPRA_MOTOR_RPM: 5212
+  response: 17FE007605623DF828B8
+- expected_values:
+    CUPRA_MOTOR_RPM: 5711
+  response: 17FE007605623DF82C9E

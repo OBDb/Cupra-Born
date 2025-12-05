@@ -1,0 +1,14 @@
+command_id: FC00.FE007B.221E36|ta=7B,c=17
+test_cases:
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 385.90598
+  response: 17FE007B05621E36303D
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 399.31223
+  response: 17FE007B05621E3631EA
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 399.99972
+  response: 17FE007B05621E363200
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 411.24972
+  response: 17FE007B05621E363368
