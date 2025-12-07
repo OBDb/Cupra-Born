@@ -4,5 +4,8 @@ test_cases:
     CUPRA_ACCEL: 0
   response: 17FE0076056245390000
 - expected_values:
-    CUPRA_ACCEL: -0.021
-  response: 17FE007605624539FFEB
+    CUPRA_ACCEL: -0.248
+  response: 17FE007605624539FF08
+- expected_values:
+    CUPRA_ACCEL: -0.002
+  response: 17FE007605624539FFFE

@@ -1,11 +1,11 @@
 command_id: FC00.FE0076.220346|ta=76,c=17
 test_cases:
 - expected_values:
-    CUPRA_STEER_ANGLE_V2: 0.2
-  response: 17FE0076056203460002
+    CUPRA_STEER_ANGLE_V2: 0
+  response: 17FE0076056203460000
 - expected_values:
-    CUPRA_STEER_ANGLE_V2: 23.5
-  response: 17FE00760562034600EB
+    CUPRA_STEER_ANGLE_V2: 23.8
+  response: 17FE00760562034600EE
 - expected_values:
     CUPRA_STEER_ANGLE_V2: 385.8
   response: 17FE0076056203460F12

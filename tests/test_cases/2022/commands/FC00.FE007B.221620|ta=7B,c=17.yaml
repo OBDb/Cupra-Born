@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     CUPRA_HVBAT_PTC_I: 0
   response: 17FE007B0462162000
+- expected_values:
+    CUPRA_HVBAT_PTC_I: 2.75
+  response: 17FE007B046216200B
+- expected_values:
+    CUPRA_HVBAT_PTC_I: 8.5
+  response: 17FE007B0462162022
+- expected_values:
+    CUPRA_HVBAT_PTC_I: 9.25
+  response: 17FE007B0462162025
+- expected_values:
+    CUPRA_HVBAT_PTC_I: 10
+  response: 17FE007B0462162028
+- expected_values:
+    CUPRA_HVBAT_PTC_I: 10.75
+  response: 17FE007B046216202B
+- expected_values:
+    CUPRA_HVBAT_PTC_I: 11
+  response: 17FE007B046216202C
+- expected_values:
+    CUPRA_HVBAT_PTC_I: 12
+  response: 17FE007B0462162030
+- expected_values:
+    CUPRA_HVBAT_PTC_I: 12.25
+  response: 17FE007B0462162031

@@ -1,6 +1,18 @@
 command_id: 767.7D1.220838|fc=1
 test_cases:
 - expected_values:
+    CUPRA_ECALL_SOC: 83
+    CUPRA_ECALL_STATUS: NORMAL
+  response: 7D1056208380253
+- expected_values:
+    CUPRA_ECALL_SOC: 84
+    CUPRA_ECALL_STATUS: NORMAL
+  response: 7D1056208380254
+- expected_values:
+    CUPRA_ECALL_SOC: 85
+    CUPRA_ECALL_STATUS: NORMAL
+  response: 7D1056208380255
+- expected_values:
     CUPRA_ECALL_SOC: 86
     CUPRA_ECALL_STATUS: NORMAL
   response: 7D1056208380256

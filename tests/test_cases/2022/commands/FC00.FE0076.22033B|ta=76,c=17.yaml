@@ -7,5 +7,5 @@ test_cases:
     CUPRA_MOTOR_TRQ_REAR: -198
   response: 17FE00760562033BFF3A
 - expected_values:
-    CUPRA_MOTOR_TRQ_REAR: -7
-  response: 17FE00760562033BFFF9
+    CUPRA_MOTOR_TRQ_REAR: -1
+  response: 17FE00760562033BFFFF

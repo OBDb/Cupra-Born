@@ -4,5 +4,5 @@ test_cases:
     CUPRA_HVBAT_ECU_T: 14
   response: 17FE007B0462162240
 - expected_values:
-    CUPRA_HVBAT_ECU_T: 27
-  response: 17FE007B046216224D
+    CUPRA_HVBAT_ECU_T: 48
+  response: 17FE007B0462162262
