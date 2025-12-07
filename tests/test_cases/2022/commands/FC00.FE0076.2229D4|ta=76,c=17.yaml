@@ -7,8 +7,23 @@ test_cases:
     CUPRA_MOTOR_TRQ_REQ: 11.1
   response: 17FE0076056229D4006F
 - expected_values:
+    CUPRA_MOTOR_TRQ_REQ: 13.7
+  response: 17FE0076056229D40089
+- expected_values:
+    CUPRA_MOTOR_TRQ_REQ: 35.3
+  response: 17FE0076056229D40161
+- expected_values:
+    CUPRA_MOTOR_TRQ_REQ: 36.6
+  response: 17FE0076056229D4016E
+- expected_values:
     CUPRA_MOTOR_TRQ_REQ: 40.1
   response: 17FE0076056229D40191
+- expected_values:
+    CUPRA_MOTOR_TRQ_REQ: 53.8
+  response: 17FE0076056229D4021A
+- expected_values:
+    CUPRA_MOTOR_TRQ_REQ: 91.7
+  response: 17FE0076056229D40395
 - expected_values:
     CUPRA_MOTOR_TRQ_REQ: 142.7
   response: 17FE0076056229D40593

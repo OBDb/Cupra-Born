@@ -7,6 +7,9 @@ test_cases:
     CUPRA_COOLANT_CIRC_PUMP_DUTY: 28.24
   response: 17FE00760562276D0B08
 - expected_values:
+    CUPRA_COOLANT_CIRC_PUMP_DUTY: 42
+  response: 17FE00760562276D1068
+- expected_values:
     CUPRA_COOLANT_CIRC_PUMP_DUTY: 45.52
   response: 17FE00760562276D11C8
 - expected_values:
@@ -15,6 +18,9 @@ test_cases:
 - expected_values:
     CUPRA_COOLANT_CIRC_PUMP_DUTY: 46.8
   response: 17FE00760562276D1248
+- expected_values:
+    CUPRA_COOLANT_CIRC_PUMP_DUTY: 49.37
+  response: 17FE00760562276D1349
 - expected_values:
     CUPRA_COOLANT_CIRC_PUMP_DUTY: 49.68
   response: 17FE00760562276D1368
