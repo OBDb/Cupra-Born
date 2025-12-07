@@ -4,23 +4,8 @@ test_cases:
     CUPRA_STEER_ANGLE_V2: 0.2
   response: 17FE0076056203460002
 - expected_values:
-    CUPRA_STEER_ANGLE_V2: 0.6
-  response: 17FE0076056203460006
-- expected_values:
-    CUPRA_STEER_ANGLE_V2: 3
-  response: 17FE007605620346001E
-- expected_values:
-    CUPRA_STEER_ANGLE_V2: 5.4
-  response: 17FE0076056203460036
-- expected_values:
-    CUPRA_STEER_ANGLE_V2: 14.1
-  response: 17FE007605620346008D
-- expected_values:
-    CUPRA_STEER_ANGLE_V2: 18.3
-  response: 17FE00760562034600B7
-- expected_values:
-    CUPRA_STEER_ANGLE_V2: 366.2
-  response: 17FE0076056203460E4E
+    CUPRA_STEER_ANGLE_V2: 23.5
+  response: 17FE00760562034600EB
 - expected_values:
     CUPRA_STEER_ANGLE_V2: 385.8
   response: 17FE0076056203460F12

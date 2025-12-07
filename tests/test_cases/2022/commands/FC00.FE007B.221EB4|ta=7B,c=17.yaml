@@ -1,8 +1,11 @@
 command_id: FC00.FE007B.221EB4|ta=7B,c=17
 test_cases:
 - expected_values:
+    CUPRA_HVBAT_MOD_T_7: 6.25
+  response: 17FE007B05621EB40172
+- expected_values:
+    CUPRA_HVBAT_MOD_T_7: 8
+  response: 17FE007B05621EB40180
+- expected_values:
     CUPRA_HVBAT_MOD_T_7: 25.5
   response: 17FE007B05621EB4020C
-- expected_values:
-    CUPRA_HVBAT_MOD_T_7: 34.875
-  response: 17FE007B05621EB40257

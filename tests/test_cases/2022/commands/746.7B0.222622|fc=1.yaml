@@ -4,17 +4,5 @@ test_cases:
     CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 58.5
   response: 7B006622622008B75
 - expected_values:
-    CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 59
-  response: 7B006622622008C76
-- expected_values:
-    CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 60.5
-  response: 7B006622622008E79
-- expected_values:
-    CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 61
-  response: 7B006622622008F7A
-- expected_values:
-    CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 61.5
-  response: 7B00662262200907B
-- expected_values:
-    CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 65.5
-  response: 7B006622622009683
+    CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 98
+  response: 7B00662262200C8C4

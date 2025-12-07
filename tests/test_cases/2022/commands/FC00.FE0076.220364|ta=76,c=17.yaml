@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CUPRA_HVAUX_PWR: 1.5
   response: 17FE007605620364000F
+- expected_values:
+    CUPRA_HVAUX_PWR: 1.7
+  response: 17FE0076056203640011

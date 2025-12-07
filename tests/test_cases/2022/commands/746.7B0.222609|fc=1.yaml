@@ -4,23 +4,5 @@ test_cases:
     CUPRA_AAT: 53
   response: 7B0046226096A
 - expected_values:
-    CUPRA_AAT: 53.5
-  response: 7B0046226096B
-- expected_values:
-    CUPRA_AAT: 54
-  response: 7B0046226096C
-- expected_values:
-    CUPRA_AAT: 54.5
-  response: 7B0046226096D
-- expected_values:
-    CUPRA_AAT: 55
-  response: 7B0046226096E
-- expected_values:
-    CUPRA_AAT: 55.5
-  response: 7B0046226096F
-- expected_values:
-    CUPRA_AAT: 56
-  response: 7B00462260970
-- expected_values:
-    CUPRA_AAT: 56.5
-  response: 7B00462260971
+    CUPRA_AAT: 59.5
+  response: 7B00462260977

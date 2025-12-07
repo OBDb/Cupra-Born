@@ -15,3 +15,18 @@ test_cases:
 - expected_values:
     CUPRA_APP_D: 43.52941
   response: 7B00462F4496F
+- expected_values:
+    CUPRA_APP_D: 58.82353
+  response: 7B00462F44996
+- expected_values:
+    CUPRA_APP_D: 59.60784
+  response: 7B00462F44998
+- expected_values:
+    CUPRA_APP_D: 60.39216
+  response: 7B00462F4499A
+- expected_values:
+    CUPRA_APP_D: 61.17647
+  response: 7B00462F4499C
+- expected_values:
+    CUPRA_APP_D: 65.09804
+  response: 7B00462F449A6
