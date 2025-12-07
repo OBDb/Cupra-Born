@@ -1,6 +1,15 @@
 command_id: 744.7AE.2215E2|fc=1,din=03
 test_cases:
 - expected_values:
+    CUPRA_CHRGR_COOLANT_T: 12
+  response: 7AE046215E234
+- expected_values:
+    CUPRA_CHRGR_COOLANT_T: 14
+  response: 7AE046215E236
+- expected_values:
+    CUPRA_CHRGR_COOLANT_T: 15
+  response: 7AE046215E237
+- expected_values:
     CUPRA_CHRGR_COOLANT_T: 16
   response: 7AE046215E238
 - expected_values:
