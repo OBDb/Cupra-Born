@@ -5,18 +5,6 @@ test_cases:
     CUPRA_SSB_R: 0
   response: 77A04622A0E00
 - expected_values:
-    CUPRA_BAT_INT_R: 0.6
-    CUPRA_SSB_R: 0.6
-  response: 77A04622A0E03
-- expected_values:
-    CUPRA_BAT_INT_R: 6.4
-    CUPRA_SSB_R: 6.4
-  response: 77A04622A0E20
-- expected_values:
-    CUPRA_BAT_INT_R: 28.6
-    CUPRA_SSB_R: 28.6
-  response: 77A04622A0E8F
-- expected_values:
-    CUPRA_BAT_INT_R: 30.2
-    CUPRA_SSB_R: 30.2
-  response: 77A04622A0E97
+    CUPRA_BAT_INT_R: 30.4
+    CUPRA_SSB_R: 30.4
+  response: 77A04622A0E98
