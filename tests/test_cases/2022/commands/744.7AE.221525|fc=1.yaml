@@ -1,6 +1,15 @@
 command_id: 744.7AE.221525|fc=1
 test_cases:
 - expected_values:
+    CUPRA_OBC_V_PROX_A: 3884
+  response: 7AE056215250F2C
+- expected_values:
+    CUPRA_OBC_V_PROX_A: 3891
+  response: 7AE056215250F33
+- expected_values:
+    CUPRA_OBC_V_PROX_A: 3898
+  response: 7AE056215250F3A
+- expected_values:
     CUPRA_OBC_V_PROX_A: 4669
   response: 7AE05621525123D
 - expected_values:

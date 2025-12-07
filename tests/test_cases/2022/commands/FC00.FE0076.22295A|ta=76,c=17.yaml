@@ -4,5 +4,8 @@ test_cases:
     CUPRA_ENG_ODO: 27850
   response: 17FE00760662295A006CCA
 - expected_values:
-    CUPRA_ENG_ODO: 27876
-  response: 17FE00760662295A006CE4
+    CUPRA_ENG_ODO: 27902
+  response: 17FE00760662295A006CFE
+- expected_values:
+    CUPRA_ENG_ODO: 27906
+  response: 17FE00760662295A006D02
