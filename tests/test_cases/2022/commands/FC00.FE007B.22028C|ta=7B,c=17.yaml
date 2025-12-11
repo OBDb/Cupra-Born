@@ -1,8 +1,8 @@
 command_id: FC00.FE007B.22028C|ta=7B,c=17
 test_cases:
 - expected_values:
-    CUPRA_SOC_DISP: 10.0087
-  response: 17FE007B0462028C25
+    CUPRA_SOC_DISP: 7.34783
+  response: 17FE007B0462028C1F
 - expected_values:
     CUPRA_SOC_DISP: 73.42609
   response: 17FE007B0462028CB4

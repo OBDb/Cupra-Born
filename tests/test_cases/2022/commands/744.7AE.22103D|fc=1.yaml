@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CUPRA_OBC_HVDC_C: 0
   response: 7AE0562103D0000
+- expected_values:
+    CUPRA_OBC_HVDC_C: 23
+  response: 7AE0562103D00E6
