@@ -6,47 +6,12 @@ test_cases:
     7AE1008621DDA46036F
     7AE210455CCCCCCCCCC
 - expected_values:
-    CUPRA_OBC_T_A: 33.2
-  response: |-
-    7AE1008621DDA460372
-    7AE210456CCCCCCCCCC
-- expected_values:
-    CUPRA_OBC_T_A: 33.5
-  response: |-
-    7AE1008621DDA460375
-    7AE210457CCCCCCCCCC
-- expected_values:
-    CUPRA_OBC_T_A: 33.8
-  response: |-
-    7AE1008621DDA460378
-    7AE210458CCCCCCCCCC
-- expected_values:
-    CUPRA_OBC_T_A: 34.1
-  response: |-
-    7AE1008621DDA46037B
-    7AE210459CCCCCCCCCC
-- expected_values:
-    CUPRA_OBC_T_A: 34.5
-  response: |-
-    7AE1008621DDA46037F
-    7AE21045ACCCCCCCCCC
-- expected_values:
-    CUPRA_OBC_T_A: 35.1
-  response: |-
-    7AE1008621DDA460385
-    7AE21045CCCCCCCCCCC
-- expected_values:
-    CUPRA_OBC_T_A: 33.8
-  response: |-
-    7AE1008621DDA860378
-    7AE210458CCCCCCCCCC
-- expected_values:
     CUPRA_OBC_T_A: 34.5
   response: |-
     7AE1008621DDA8E037F
     7AE21045ACCCCCCCCCC
 - expected_values:
-    CUPRA_OBC_T_A: 35.1
+    CUPRA_OBC_T_A: 35.4
   response: |-
-    7AE1008621DDA8E0385
-    7AE21045CCCCCCCCCCC
+    7AE1008621DDA8E0388
+    7AE21045DCCCCCCCCCC
