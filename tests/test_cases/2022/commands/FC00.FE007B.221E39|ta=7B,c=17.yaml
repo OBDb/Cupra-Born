@@ -4,8 +4,8 @@ test_cases:
     CUPRA_HVBAT_V_CHG: 0
   response: 17FE007B05621E390000
 - expected_values:
-    CUPRA_HVBAT_V_CHG: -0.09375
-  response: 17FE007B05621E39FFFD
+    CUPRA_HVBAT_V_CHG: -0.1875
+  response: 17FE007B05621E39FFFA
 - expected_values:
     CUPRA_HVBAT_V_CHG: -0.03125
   response: 17FE007B05621E39FFFF
