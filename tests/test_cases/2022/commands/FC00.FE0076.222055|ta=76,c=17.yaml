@@ -16,6 +16,9 @@ test_cases:
     CUPRA_RADIATOR_FAN_DUTY: 14.84
   response: 17FE00760562205505CC
 - expected_values:
+    CUPRA_RADIATOR_FAN_DUTY: 17.19
+  response: 17FE00760562205506B7
+- expected_values:
     CUPRA_RADIATOR_FAN_DUTY: 17.58
   response: 17FE00760562205506DE
 - expected_values:

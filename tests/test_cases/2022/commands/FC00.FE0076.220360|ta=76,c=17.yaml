@@ -4,8 +4,8 @@ test_cases:
     CUPRA_HVAUX_I: 0
   response: 17FE0076056203600000
 - expected_values:
-    CUPRA_HVAUX_I: 2.5
-  response: 17FE00760562036000FA
+    CUPRA_HVAUX_I: 2.53
+  response: 17FE00760562036000FD
 - expected_values:
     CUPRA_HVAUX_I: 15.69
   response: 17FE0076056203600621

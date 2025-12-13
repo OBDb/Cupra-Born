@@ -16,11 +16,11 @@ test_cases:
     77A2102EAAAAAAAAAAA
 - expected_values:
     CUPRA_DCDC_I: 13
-    CUPRA_DCDC_I_RSV: 253
+    CUPRA_DCDC_I_RSV: 252
     CUPRA_DCDC_V_LOW: 13.5
   response: |-
     77A1008622A5387020C
-    77A2102FCAAAAAAAAAA
+    77A2102FBAAAAAAAAAA
 - expected_values:
     CUPRA_DCDC_I: 20
     CUPRA_DCDC_I_RSV: 241
@@ -28,6 +28,13 @@ test_cases:
   response: |-
     77A1008622A538B0213
     77A2102F0AAAAAAAAAA
+- expected_values:
+    CUPRA_DCDC_I: 8
+    CUPRA_DCDC_I_RSV: 242
+    CUPRA_DCDC_V_LOW: 14.8
+  response: |-
+    77A1008622A53940207
+    77A2102F1AAAAAAAAAA
 - expected_values:
     CUPRA_DCDC_I: 26
     CUPRA_DCDC_I_RSV: 241
