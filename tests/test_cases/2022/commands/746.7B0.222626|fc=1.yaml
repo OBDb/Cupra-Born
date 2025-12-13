@@ -1,8 +1,8 @@
 command_id: 746.7B0.222626|fc=1
 test_cases:
 - expected_values:
-    CUPRA_CLIMATE_FR_R_T_FLP_ACT_VALUE: 57.5
-  response: 7B006622626008B73
+    CUPRA_CLIMATE_FR_R_T_FLP_ACT_VALUE: 29
+  response: 7B006622626005E3A
 - expected_values:
     CUPRA_CLIMATE_FR_R_T_FLP_ACT_VALUE: 100
   response: 7B00662262600CEC8
