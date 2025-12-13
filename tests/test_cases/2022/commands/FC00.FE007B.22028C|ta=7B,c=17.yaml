@@ -4,5 +4,5 @@ test_cases:
     CUPRA_SOC_DISP: 7.34783
   response: 17FE007B0462028C1F
 - expected_values:
-    CUPRA_SOC_DISP: 93.38261
-  response: 17FE007B0462028CE1
+    CUPRA_SOC_DISP: 99.14783
+  response: 17FE007B0462028CEE

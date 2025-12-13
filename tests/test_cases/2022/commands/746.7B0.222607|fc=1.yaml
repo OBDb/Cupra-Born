@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CUPRA_CLIMATE_RAD_FAN_CMD_DUTY: 20
   response: 7B00462260732
+- expected_values:
+    CUPRA_CLIMATE_RAD_FAN_CMD_DUTY: 24
+  response: 7B0046226073C
