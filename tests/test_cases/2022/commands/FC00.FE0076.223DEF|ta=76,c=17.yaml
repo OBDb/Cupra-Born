@@ -10,5 +10,5 @@ test_cases:
     CUPRA_SOC_V2: 64
   response: 17FE007605623DEF1900
 - expected_values:
-    CUPRA_SOC_V2: 72
-  response: 17FE007605623DEF1C20
+    CUPRA_SOC_V2: 90
+  response: 17FE007605623DEF2328
