@@ -10,5 +10,5 @@ test_cases:
     CUPRA_DC_DC_V: 14
   response: 17FE00B90562465D1C00
 - expected_values:
-    CUPRA_DC_DC_V: 15.04492
-  response: 17FE00B90562465D1E17
+    CUPRA_DC_DC_V: 15
+  response: 17FE00B90562465D1E00
