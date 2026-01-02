@@ -1,0 +1,8 @@
+command_id: 710.77A.222AB4|fc=1
+test_cases:
+- expected_values:
+    CUPRA_HVBAT_CSMP_AVG_INT: 37
+    CUPRA_RANGE_EST_INT: 251
+  response: |-
+    77A100D622AB4000000
+    77A21FB000000000025
