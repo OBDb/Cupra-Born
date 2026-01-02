@@ -1,0 +1,11 @@
+command_id: 746.7B0.2242DB|fc=1
+test_cases:
+- expected_values:
+    CUPRA_CO2_CONTENT_INTERIOR: 300
+  response: 7B0056242DB0003
+- expected_values:
+    CUPRA_CO2_CONTENT_INTERIOR: 400
+  response: 7B0056242DB0004
+- expected_values:
+    CUPRA_CO2_CONTENT_INTERIOR: 500
+  response: 7B0056242DB0005

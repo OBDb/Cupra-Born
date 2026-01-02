@@ -1,0 +1,8 @@
+command_id: 746.7B0.220800|fc=1
+test_cases:
+- expected_values:
+    CUPRA_AC_COMPRESSOR_PWR_ACT: 65535
+  response: |-
+    7B0100E620800100000
+    7B0210000FFFF006F80
+    7B02240AAAAAAAAAAAA
