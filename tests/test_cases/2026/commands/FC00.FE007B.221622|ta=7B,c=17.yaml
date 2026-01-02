@@ -1,0 +1,23 @@
+command_id: FC00.FE007B.221622|ta=7B,c=17
+test_cases:
+- expected_values:
+    CUPRA_HVBAT_ECU_T: 8
+  response: 17FE007B046216223A
+- expected_values:
+    CUPRA_HVBAT_ECU_T: 9
+  response: 17FE007B046216223B
+- expected_values:
+    CUPRA_HVBAT_ECU_T: 11
+  response: 17FE007B046216223D
+- expected_values:
+    CUPRA_HVBAT_ECU_T: 12
+  response: 17FE007B046216223E
+- expected_values:
+    CUPRA_HVBAT_ECU_T: 13
+  response: 17FE007B046216223F
+- expected_values:
+    CUPRA_HVBAT_ECU_T: 14
+  response: 17FE007B0462162240
+- expected_values:
+    CUPRA_HVBAT_ECU_T: 15
+  response: 17FE007B0462162241

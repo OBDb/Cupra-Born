@@ -1,0 +1,6 @@
+command_id: FC00.FE007B.221E0F|ta=7B,c=17
+test_cases:
+- expected_values:
+    CUPRA_HVBAT_T_MIN: 3.625
+    CUPRA_HVBAT_T_MIN_ID: 2
+  response: 17FE007B07621E0F00E80002

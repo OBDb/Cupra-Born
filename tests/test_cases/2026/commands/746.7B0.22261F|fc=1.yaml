@@ -1,0 +1,23 @@
+command_id: 746.7B0.22261F|fc=1
+test_cases:
+- expected_values:
+    CUPRA_RECIRC_FLAP_CMD_STEPS: 616
+  response: 7B00562261F0268
+- expected_values:
+    CUPRA_RECIRC_FLAP_CMD_STEPS: 665
+  response: 7B00562261F0299
+- expected_values:
+    CUPRA_RECIRC_FLAP_CMD_STEPS: 668
+  response: 7B00562261F029C
+- expected_values:
+    CUPRA_RECIRC_FLAP_CMD_STEPS: 682
+  response: 7B00562261F02AA
+- expected_values:
+    CUPRA_RECIRC_FLAP_CMD_STEPS: 686
+  response: 7B00562261F02AE
+- expected_values:
+    CUPRA_RECIRC_FLAP_CMD_STEPS: 700
+  response: 7B00562261F02BC
+- expected_values:
+    CUPRA_RECIRC_FLAP_CMD_STEPS: 714
+  response: 7B00562261F02CA
