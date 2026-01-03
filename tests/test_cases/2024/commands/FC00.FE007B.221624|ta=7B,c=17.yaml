@@ -1,5 +1,8 @@
 command_id: FC00.FE007B.221624|ta=7B,c=17
 test_cases:
 - expected_values:
+    CUPRA_HVBAT_PTC_T_2: 7
+  response: 17FE007B0462162439
+- expected_values:
     CUPRA_HVBAT_PTC_T_2: 13
   response: 17FE007B046216243F
