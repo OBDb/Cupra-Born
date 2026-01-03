@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CUPRA_HVBAT_MOD_T_10: 3.875
   response: 17FE007B05621EB7015F
+- expected_values:
+    CUPRA_HVBAT_MOD_T_10: 6.375
+  response: 17FE007B05621EB70173

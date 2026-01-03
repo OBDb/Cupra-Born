@@ -1,6 +1,10 @@
 command_id: FC00.FE007B.22189D|ta=7B,c=17
 test_cases:
 - expected_values:
+    CUPRA_HVBAT_T_IN: 10
+    CUPRA_HVBAT_T_OUT: 8.5
+  response: 17FE007B0762189D02200280
+- expected_values:
     CUPRA_HVBAT_T_IN: 11.5
     CUPRA_HVBAT_T_OUT: 9
   response: 17FE007B0762189D024002E0
