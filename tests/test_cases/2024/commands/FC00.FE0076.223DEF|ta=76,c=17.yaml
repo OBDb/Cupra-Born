@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.223DEF|ta=76,c=17
+test_cases:
+- expected_values:
+    CUPRA_SOC_V2: 40
+  response: 17FE007605623DEF0FA0
+- expected_values:
+    CUPRA_SOC_V2: 40.5
+  response: 17FE007605623DEF0FD2

@@ -1,0 +1,11 @@
+command_id: FC00.FE00B9.22465D|ta=B9,c=17
+test_cases:
+- expected_values:
+    CUPRA_DC_DC_V: 15.26562
+  response: 17FE00B90562465D1E88
+- expected_values:
+    CUPRA_DC_DC_V: 15.27344
+  response: 17FE00B90562465D1E8C
+- expected_values:
+    CUPRA_DC_DC_V: 15.28516
+  response: 17FE00B90562465D1E92

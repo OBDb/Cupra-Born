@@ -1,0 +1,14 @@
+command_id: FC00.FE0076.22035E|ta=76,c=17
+test_cases:
+- expected_values:
+    CUPRA_HVBAT_I_ENG: 20.3
+  response: 17FE00760562035E00CB
+- expected_values:
+    CUPRA_HVBAT_I_ENG: -304.1
+  response: 17FE00760562035EF41F
+- expected_values:
+    CUPRA_HVBAT_I_ENG: -73.9
+  response: 17FE00760562035EFD1D
+- expected_values:
+    CUPRA_HVBAT_I_ENG: -40.6
+  response: 17FE00760562035EFE6A

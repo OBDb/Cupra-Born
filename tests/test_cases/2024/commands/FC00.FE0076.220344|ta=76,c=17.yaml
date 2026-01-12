@@ -1,0 +1,14 @@
+command_id: FC00.FE0076.220344|ta=76,c=17
+test_cases:
+- expected_values:
+    CUPRA_MOTOR_TRQ_RATED_FRONT: 53.5
+  response: 17FE007605620344006B
+- expected_values:
+    CUPRA_MOTOR_TRQ_RATED_FRONT: 99
+  response: 17FE00760562034400C6
+- expected_values:
+    CUPRA_MOTOR_TRQ_RATED_FRONT: 236
+  response: 17FE00760562034401D8
+- expected_values:
+    CUPRA_MOTOR_TRQ_RATED_FRONT: -57.5
+  response: 17FE007605620344FF8D

@@ -1,0 +1,14 @@
+command_id: FC00.FE0076.224539|ta=76,c=17
+test_cases:
+- expected_values:
+    CUPRA_ACCEL: 0.024
+  response: 17FE0076056245390018
+- expected_values:
+    CUPRA_ACCEL: 0.508
+  response: 17FE00760562453901FC
+- expected_values:
+    CUPRA_ACCEL: 0.906
+  response: 17FE007605624539038A
+- expected_values:
+    CUPRA_ACCEL: -1.007
+  response: 17FE007605624539FC11

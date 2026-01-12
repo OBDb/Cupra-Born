@@ -1,0 +1,14 @@
+command_id: FC00.FE0076.22033B|ta=76,c=17
+test_cases:
+- expected_values:
+    CUPRA_MOTOR_TRQ_REAR: 4
+  response: 17FE00760562033B0004
+- expected_values:
+    CUPRA_MOTOR_TRQ_REAR: 44
+  response: 17FE00760562033B002C
+- expected_values:
+    CUPRA_MOTOR_TRQ_REAR: 82
+  response: 17FE00760562033B0052
+- expected_values:
+    CUPRA_MOTOR_TRQ_REAR: -57
+  response: 17FE00760562033BFFC7

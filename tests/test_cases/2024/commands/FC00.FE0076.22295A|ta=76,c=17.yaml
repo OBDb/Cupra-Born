@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.22295A|ta=76,c=17
+test_cases:
+- expected_values:
+    CUPRA_ENG_ODO: 12796
+  response: 17FE00760662295A0031FC
+- expected_values:
+    CUPRA_ENG_ODO: 12797
+  response: 17FE00760662295A0031FD

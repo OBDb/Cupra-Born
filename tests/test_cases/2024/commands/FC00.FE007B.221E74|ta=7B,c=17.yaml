@@ -1,6 +1,18 @@
 command_id: FC00.FE007B.221E74|ta=7B,c=17
 test_cases:
 - expected_values:
+    CUPRA_HVBAT_CELL_V_053: 3.544
+  response: 17FE007B05621E7409F0
+- expected_values:
+    CUPRA_HVBAT_CELL_V_053: 3.593
+  response: 17FE007B05621E740A21
+- expected_values:
+    CUPRA_HVBAT_CELL_V_053: 3.608
+  response: 17FE007B05621E740A30
+- expected_values:
+    CUPRA_HVBAT_CELL_V_053: 3.651
+  response: 17FE007B05621E740A5B
+- expected_values:
     CUPRA_HVBAT_CELL_V_053: 4.033
   response: 17FE007B05621E740BD9
 - expected_values:
