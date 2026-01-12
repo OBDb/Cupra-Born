@@ -4,5 +4,8 @@ test_cases:
     CUPRA_HVBAT_PTC_T_1: 6
   response: 17FE007B0462162338
 - expected_values:
+    CUPRA_HVBAT_PTC_T_1: 7
+  response: 17FE007B0462162339
+- expected_values:
     CUPRA_HVBAT_PTC_T_1: 11
   response: 17FE007B046216233D

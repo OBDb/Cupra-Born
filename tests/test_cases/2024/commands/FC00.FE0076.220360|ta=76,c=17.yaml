@@ -1,0 +1,14 @@
+command_id: FC00.FE0076.220360|ta=76,c=17
+test_cases:
+- expected_values:
+    CUPRA_HVAUX_I: 3.91
+  response: 17FE0076056203600187
+- expected_values:
+    CUPRA_HVAUX_I: 3.97
+  response: 17FE007605620360018D
+- expected_values:
+    CUPRA_HVAUX_I: 4.25
+  response: 17FE00760562036001A9
+- expected_values:
+    CUPRA_HVAUX_I: 4.41
+  response: 17FE00760562036001B9

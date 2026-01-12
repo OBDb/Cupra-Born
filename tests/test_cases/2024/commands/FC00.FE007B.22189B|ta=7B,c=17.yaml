@@ -1,6 +1,15 @@
 command_id: FC00.FE007B.22189B|ta=7B,c=17
 test_cases:
 - expected_values:
+    CUPRA_HVBAT_AFTER_CONTACTS_V: 391.5
+  response: 17FE007B0562189B0ADF
+- expected_values:
+    CUPRA_HVBAT_AFTER_CONTACTS_V: 392.5
+  response: 17FE007B0562189B0AE1
+- expected_values:
+    CUPRA_HVBAT_AFTER_CONTACTS_V: 394
+  response: 17FE007B0562189B0AE4
+- expected_values:
     CUPRA_HVBAT_AFTER_CONTACTS_V: 435.5
   response: 17FE007B0562189B0B37
 - expected_values:

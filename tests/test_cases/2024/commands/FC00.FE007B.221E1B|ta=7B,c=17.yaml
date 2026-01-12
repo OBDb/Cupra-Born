@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     CUPRA_HVBAT_I_LIM_CHG: 90.8
   response: 17FE007B05621E1B01C6
+- expected_values:
+    CUPRA_HVBAT_I_LIM_CHG: 218.6
+  response: 17FE007B05621E1B0445
+- expected_values:
+    CUPRA_HVBAT_I_LIM_CHG: 219.8
+  response: 17FE007B05621E1B044B
