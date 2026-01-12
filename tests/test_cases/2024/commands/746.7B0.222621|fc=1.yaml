@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CUPRA_RECIRC_FLAP_STOP_RECIRC: 858
   response: 7B005622621035A
+- expected_values:
+    CUPRA_RECIRC_FLAP_STOP_RECIRC: 860
+  response: 7B005622621035C

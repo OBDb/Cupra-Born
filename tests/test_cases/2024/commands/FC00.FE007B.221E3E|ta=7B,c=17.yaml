@@ -4,5 +4,17 @@ test_cases:
     CUPRA_HVBAT_I_DC_2: -46.95
   response: 17FE007B07621E3E00023799
 - expected_values:
+    CUPRA_HVBAT_I_DC_2: -4.94
+  response: 17FE007B07621E3E00024802
+- expected_values:
     CUPRA_HVBAT_I_DC_2: -3.98
   response: 17FE007B07621E3E00024862
+- expected_values:
+    CUPRA_HVBAT_I_DC_2: -2.23
+  response: 17FE007B07621E3E00024911
+- expected_values:
+    CUPRA_HVBAT_I_DC_2: -1.1
+  response: 17FE007B07621E3E00024982
+- expected_values:
+    CUPRA_HVBAT_I_DC_2: 2.46
+  response: 17FE007B07621E3E00024AE6

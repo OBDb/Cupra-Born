@@ -1,0 +1,11 @@
+command_id: FC00.FE0076.22276D|ta=76,c=17
+test_cases:
+- expected_values:
+    CUPRA_COOLANT_CIRC_PUMP_DUTY: 38.48
+  response: 17FE00760562276D0F08
+- expected_values:
+    CUPRA_COOLANT_CIRC_PUMP_DUTY: 38.8
+  response: 17FE00760562276D0F28
+- expected_values:
+    CUPRA_COOLANT_CIRC_PUMP_DUTY: 39.44
+  response: 17FE00760562276D0F68
