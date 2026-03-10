@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CUPRA_CO2_CONTENT_INTERIOR: 500
   response: 7B0056242DB0005
+- expected_values:
+    CUPRA_CO2_CONTENT_INTERIOR: 800
+  response: 7B0056242DB0008

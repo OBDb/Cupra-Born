@@ -7,6 +7,12 @@ test_cases:
     77A100D622AB4000000
     77A21A2000000000018
 - expected_values:
+    CUPRA_HVBAT_CSMP_AVG_INT: 39
+    CUPRA_RANGE_EST_INT: 181
+  response: |-
+    77A100D622AB4000000
+    77A21B5000000000027
+- expected_values:
     CUPRA_HVBAT_CSMP_AVG_INT: 16
     CUPRA_RANGE_EST_INT: 192
   response: |-
@@ -36,9 +42,3 @@ test_cases:
   response: |-
     77A100D622AB4000001
     77A210800000000000F
-- expected_values:
-    CUPRA_HVBAT_CSMP_AVG_INT: 32
-    CUPRA_RANGE_EST_INT: 268
-  response: |-
-    77A100D622AB4000001
-    77A210C000000000020
