@@ -1,0 +1,34 @@
+command_id: 712.77C.221812|fc=1
+test_cases:
+- expected_values:
+    CUPRA_MQB_SWA: 585.56
+    CUPRA_STEER_WHEEL_ANGLE: 585.5
+  response: 77C05621812124C
+- expected_values:
+    CUPRA_MQB_SWA: 746.185
+    CUPRA_STEER_WHEEL_ANGLE: 746.125
+  response: 77C056218121751
+- expected_values:
+    CUPRA_MQB_SWA: 747.935
+    CUPRA_STEER_WHEEL_ANGLE: 747.875
+  response: 77C05621812175F
+- expected_values:
+    CUPRA_MQB_SWA: 749.685
+    CUPRA_STEER_WHEEL_ANGLE: 749.625
+  response: 77C05621812176D
+- expected_values:
+    CUPRA_MQB_SWA: 749.81
+    CUPRA_STEER_WHEEL_ANGLE: 749.75
+  response: 77C05621812176E
+- expected_values:
+    CUPRA_MQB_SWA: 750.685
+    CUPRA_STEER_WHEEL_ANGLE: 750.625
+  response: 77C056218121775
+- expected_values:
+    CUPRA_MQB_SWA: 754.185
+    CUPRA_STEER_WHEEL_ANGLE: 754.125
+  response: 77C056218121791
+- expected_values:
+    CUPRA_MQB_SWA: 770.56
+    CUPRA_STEER_WHEEL_ANGLE: 770.5
+  response: 77C056218121814
