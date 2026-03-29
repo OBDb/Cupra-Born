@@ -1,10 +1,10 @@
 command_id: 744.7AE.221DDA|fc=1
 test_cases:
 - expected_values:
-    CUPRA_OBC_T_A: 32.5
+    CUPRA_OBC_T_A: 32.2
   response: |-
-    7AE1008621DDA46036B
-    7AE210454CCCCCCCCCC
+    7AE1008621DDA460368
+    7AE210453CCCCCCCCCC
 - expected_values:
     CUPRA_OBC_T_A: 35.4
   response: |-
