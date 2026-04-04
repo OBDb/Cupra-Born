@@ -13,6 +13,9 @@ test_cases:
     CUPRA_MQB_RECIRC_FLAP_TRG: 186
   response: 7B00562261F00BA
 - expected_values:
+    CUPRA_MQB_RECIRC_FLAP_TRG: 201
+  response: 7B00562261F00C9
+- expected_values:
     CUPRA_MQB_RECIRC_FLAP_TRG: 202
   response: 7B00562261F00CA
 - expected_values:
