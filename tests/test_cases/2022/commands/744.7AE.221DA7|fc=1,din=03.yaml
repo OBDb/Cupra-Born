@@ -10,5 +10,5 @@ test_cases:
   response: 7AE05621DA70EFF
 - expected_values:
     CUPRA_CHRGR_V_OUT: 17
-    CUPRA_OBC_HIGH_V_OUTPUT: 435.8
-  response: 7AE05621DA71106
+    CUPRA_OBC_HIGH_V_OUTPUT: 435.6
+  response: 7AE05621DA71104
