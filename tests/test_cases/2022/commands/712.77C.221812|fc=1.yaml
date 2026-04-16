@@ -5,13 +5,13 @@ test_cases:
     CUPRA_STEER_WHEEL_ANGLE: 305.125
   response: 77C056218120989
 - expected_values:
-    CUPRA_MQB_SWA: 703.31
-    CUPRA_STEER_WHEEL_ANGLE: 703.25
-  response: 77C0562181215FA
-- expected_values:
     CUPRA_MQB_SWA: 800.935
     CUPRA_STEER_WHEEL_ANGLE: 800.875
   response: 77C056218121907
+- expected_values:
+    CUPRA_MQB_SWA: 895.81
+    CUPRA_STEER_WHEEL_ANGLE: 895.75
+  response: 77C056218121BFE
 - expected_values:
     CUPRA_MQB_SWA: 1441.56
     CUPRA_STEER_WHEEL_ANGLE: 1441.5
