@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     CUPRA_CHRGR_DUR_TOTAL: 46522
   response: 7AE076215EE0000B5BA
+- expected_values:
+    CUPRA_CHRGR_DUR_TOTAL: 46691
+  response: 7AE076215EE0000B663
