@@ -13,8 +13,14 @@ test_cases:
     CUPRA_PQ35_RAD_FAN_CMD: 26
   response: 7B00462260741
 - expected_values:
+    CUPRA_PQ35_RAD_FAN_CMD: 27.2
+  response: 7B00462260744
+- expected_values:
     CUPRA_PQ35_RAD_FAN_CMD: 28.8
   response: 7B00462260748
+- expected_values:
+    CUPRA_PQ35_RAD_FAN_CMD: 30
+  response: 7B0046226074B
 - expected_values:
     CUPRA_PQ35_RAD_FAN_CMD: 31.6
   response: 7B0046226074F
