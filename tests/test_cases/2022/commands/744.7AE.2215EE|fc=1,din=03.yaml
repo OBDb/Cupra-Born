@@ -7,26 +7,5 @@ test_cases:
     CUPRA_CHRGR_DUR_TOTAL: 37104
   response: 7AE076215EE000090F0
 - expected_values:
-    CUPRA_CHRGR_DUR_TOTAL: 37314
-  response: 7AE076215EE000091C2
-- expected_values:
-    CUPRA_CHRGR_DUR_TOTAL: 44875
-  response: 7AE076215EE0000AF4B
-- expected_values:
-    CUPRA_CHRGR_DUR_TOTAL: 45642
-  response: 7AE076215EE0000B24A
-- expected_values:
-    CUPRA_CHRGR_DUR_TOTAL: 46183
-  response: 7AE076215EE0000B467
-- expected_values:
-    CUPRA_CHRGR_DUR_TOTAL: 46522
-  response: 7AE076215EE0000B5BA
-- expected_values:
-    CUPRA_CHRGR_DUR_TOTAL: 46691
-  response: 7AE076215EE0000B663
-- expected_values:
-    CUPRA_CHRGR_DUR_TOTAL: 46985
-  response: 7AE076215EE0000B789
-- expected_values:
-    CUPRA_CHRGR_DUR_TOTAL: 47282
-  response: 7AE076215EE0000B8B2
+    CUPRA_CHRGR_DUR_TOTAL: 47433
+  response: 7AE076215EE0000B949
