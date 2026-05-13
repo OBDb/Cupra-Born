@@ -16,3 +16,11 @@ test_cases:
     CUPRA_AAT: 53.5
     CUPRA_PQ35_OUT_T: 53.5
   response: 7B0046226096B
+- expected_values:
+    CUPRA_AAT: 62.5
+    CUPRA_PQ35_OUT_T: 62.5
+  response: 7B0046226097D
+- expected_values:
+    CUPRA_AAT: 63
+    CUPRA_PQ35_OUT_T: 63
+  response: 7B0046226097E
