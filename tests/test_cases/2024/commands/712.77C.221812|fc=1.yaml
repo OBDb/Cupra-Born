@@ -1,6 +1,14 @@
 command_id: 712.77C.221812|fc=1
 test_cases:
 - expected_values:
-    CUPRA_MQB_SWA: 759.31
-    CUPRA_STEER_WHEEL_ANGLE: 759.25
-  response: 77C0562181217BA
+    CUPRA_MQB_SWA: 97.56
+    CUPRA_STEER_WHEEL_ANGLE: 97.5
+  response: 77C05621812030C
+- expected_values:
+    CUPRA_MQB_SWA: 742.06
+    CUPRA_STEER_WHEEL_ANGLE: 742
+  response: 77C056218121730
+- expected_values:
+    CUPRA_MQB_SWA: 761.31
+    CUPRA_STEER_WHEEL_ANGLE: 761.25
+  response: 77C0562181217CA
