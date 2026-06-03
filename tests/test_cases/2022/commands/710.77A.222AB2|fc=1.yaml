@@ -1,8 +1,8 @@
 command_id: 710.77A.222AB2|fc=1
 test_cases:
 - expected_values:
-    CUPRA_HVBAT_CAP: 54250
-  response: 77A07622AB2043D0400
+    CUPRA_HVBAT_CAP: 54200
+  response: 77A07622AB2043C0400
 - expected_values:
     CUPRA_HVBAT_CAP: 55200
   response: 77A07622AB204500401
