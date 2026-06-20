@@ -1,5 +1,8 @@
 command_id: 70E.778.221945|fc=1
 test_cases:
 - expected_values:
+    CUPRA_MQB_HTR_NOZZLE: 0
+  response: '7780462194500'
+- expected_values:
     CUPRA_MQB_HTR_NOZZLE: 1
   response: '7780462194501'
