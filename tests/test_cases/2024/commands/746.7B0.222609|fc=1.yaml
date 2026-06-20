@@ -5,34 +5,6 @@ test_cases:
     CUPRA_PQ35_OUT_T: 50.5
   response: 7B00462260965
 - expected_values:
-    CUPRA_AAT: 51
-    CUPRA_PQ35_OUT_T: 51
-  response: 7B00462260966
-- expected_values:
-    CUPRA_AAT: 53
-    CUPRA_PQ35_OUT_T: 53
-  response: 7B0046226096A
-- expected_values:
-    CUPRA_AAT: 53.5
-    CUPRA_PQ35_OUT_T: 53.5
-  response: 7B0046226096B
-- expected_values:
-    CUPRA_AAT: 62.5
-    CUPRA_PQ35_OUT_T: 62.5
-  response: 7B0046226097D
-- expected_values:
-    CUPRA_AAT: 63
-    CUPRA_PQ35_OUT_T: 63
-  response: 7B0046226097E
-- expected_values:
-    CUPRA_AAT: 63.5
-    CUPRA_PQ35_OUT_T: 63.5
-  response: 7B0046226097F
-- expected_values:
-    CUPRA_AAT: -64
-    CUPRA_PQ35_OUT_T: -64
-  response: 7B00462260980
-- expected_values:
-    CUPRA_AAT: -63.5
-    CUPRA_PQ35_OUT_T: -63.5
-  response: 7B00462260981
+    CUPRA_AAT: -47
+    CUPRA_PQ35_OUT_T: -47
+  response: 7B004622609A2

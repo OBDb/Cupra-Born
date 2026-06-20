@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     CUPRA_PQ35_AC_COMP_SPD: 0
   response: 7B00462260300
+- expected_values:
+    CUPRA_PQ35_AC_COMP_SPD: 6600
+  response: 7B00462260342
+- expected_values:
+    CUPRA_PQ35_AC_COMP_SPD: 7200
+  response: 7B00462260348
+- expected_values:
+    CUPRA_PQ35_AC_COMP_SPD: 7400
+  response: 7B0046226034A

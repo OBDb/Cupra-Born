@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CUPRA_PQ35_RAD_FAN_DUTY: 4
   response: 7B0046226060A
+- expected_values:
+    CUPRA_PQ35_RAD_FAN_DUTY: 100
+  response: 7B004622606FF
