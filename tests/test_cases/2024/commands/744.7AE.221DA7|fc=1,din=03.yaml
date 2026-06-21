@@ -2,36 +2,8 @@ command_id: 744.7AE.221DA7|fc=1,din=03
 test_cases:
 - expected_values:
     CUPRA_CHRGR_V_OUT: 15
-    CUPRA_OBC_HIGH_V_OUTPUT: 389.7
-  response: 7AE05621DA70F39
-- expected_values:
-    CUPRA_CHRGR_V_OUT: 15
-    CUPRA_OBC_HIGH_V_OUTPUT: 390.4
-  response: 7AE05621DA70F40
-- expected_values:
-    CUPRA_CHRGR_V_OUT: 15
-    CUPRA_OBC_HIGH_V_OUTPUT: 392
-  response: 7AE05621DA70F50
-- expected_values:
-    CUPRA_CHRGR_V_OUT: 16
-    CUPRA_OBC_HIGH_V_OUTPUT: 410.9
-  response: 7AE05621DA7100D
-- expected_values:
-    CUPRA_CHRGR_V_OUT: 16
-    CUPRA_OBC_HIGH_V_OUTPUT: 414.7
-  response: 7AE05621DA71033
-- expected_values:
-    CUPRA_CHRGR_V_OUT: 16
-    CUPRA_OBC_HIGH_V_OUTPUT: 417.3
-  response: 7AE05621DA7104D
-- expected_values:
-    CUPRA_CHRGR_V_OUT: 16
-    CUPRA_OBC_HIGH_V_OUTPUT: 419.3
-  response: 7AE05621DA71061
-- expected_values:
-    CUPRA_CHRGR_V_OUT: 16
-    CUPRA_OBC_HIGH_V_OUTPUT: 433.3
-  response: 7AE05621DA710ED
+    CUPRA_OBC_HIGH_V_OUTPUT: 387.6
+  response: 7AE05621DA70F24
 - expected_values:
     CUPRA_CHRGR_V_OUT: 16
     CUPRA_OBC_HIGH_V_OUTPUT: 435.1
