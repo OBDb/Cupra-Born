@@ -11,10 +11,10 @@ test_cases:
     7AE1008621DDA460362
     7AE210451CCCCCCCCCC
 - expected_values:
-    CUPRA_OBC_T_A: 35.4
+    CUPRA_OBC_T_A: 36.1
   response: |-
-    7AE1008621DDA460388
-    7AE21045DCCCCCCCCCC
+    7AE1008621DDA46038F
+    7AE21045FCCCCCCCCCC
 - expected_values:
     CUPRA_OBC_T_A: 42
   response: |-
