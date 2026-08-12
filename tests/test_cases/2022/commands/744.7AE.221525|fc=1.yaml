@@ -13,6 +13,9 @@ test_cases:
     CUPRA_OBC_V_PROX_A: 3898
   response: 7AE056215250F3A
 - expected_values:
+    CUPRA_OBC_V_PROX_A: 3905
+  response: 7AE056215250F41
+- expected_values:
     CUPRA_OBC_V_PROX_A: 4669
   response: 7AE05621525123D
 - expected_values:
