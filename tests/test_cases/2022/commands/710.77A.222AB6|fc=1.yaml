@@ -21,10 +21,10 @@ test_cases:
     77A100A622AB6002000
     77A2120000000AAAAAA
 - expected_values:
-    CUPRA_RANGE: 51
+    CUPRA_RANGE: 41
   response: |-
-    77A100A622AB6003300
-    77A213300000EAAAAAA
+    77A100A622AB6002900
+    77A212900007EAAAAAA
 - expected_values:
     CUPRA_RANGE: 78
   response: |-
