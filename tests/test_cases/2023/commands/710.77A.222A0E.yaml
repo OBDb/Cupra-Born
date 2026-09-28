@@ -1,0 +1,38 @@
+command_id: 710.77A.222A0E
+test_cases:
+- expected_values:
+    CUPRA_BAT_INT_R: 0
+    CUPRA_MQB_BAT_INT_RES: 0
+    CUPRA_SSB_R: 0
+    CUPRA_SSB_RES_INT: 0
+  response: 77A04622A0E00
+- expected_values:
+    CUPRA_BAT_INT_R: 0.6
+    CUPRA_MQB_BAT_INT_RES: 0.6
+    CUPRA_SSB_R: 0.6
+    CUPRA_SSB_RES_INT: 0.6
+  response: 77A04622A0E03
+- expected_values:
+    CUPRA_BAT_INT_R: 6.6
+    CUPRA_MQB_BAT_INT_RES: 6.6
+    CUPRA_SSB_R: 6.6
+    CUPRA_SSB_RES_INT: 6.6
+  response: 77A04622A0E21
+- expected_values:
+    CUPRA_BAT_INT_R: 8
+    CUPRA_MQB_BAT_INT_RES: 8
+    CUPRA_SSB_R: 8
+    CUPRA_SSB_RES_INT: 8
+  response: 77A04622A0E28
+- expected_values:
+    CUPRA_BAT_INT_R: 27
+    CUPRA_MQB_BAT_INT_RES: -24.2
+    CUPRA_SSB_R: 27
+    CUPRA_SSB_RES_INT: -24.2
+  response: 77A04622A0E87
+- expected_values:
+    CUPRA_BAT_INT_R: 29
+    CUPRA_MQB_BAT_INT_RES: -22.2
+    CUPRA_SSB_R: 29
+    CUPRA_SSB_RES_INT: -22.2
+  response: 77A04622A0E91
