@@ -1,0 +1,9 @@
+command_id: 746.7B0.224EEF|fc=1
+test_cases:
+- expected_values:
+    CUPRA_AC_REFRIG_P_SENS1: 1.1528
+    CUPRA_AC_REFRIG_T_SENS1: 22.3
+    CUPRA_AC_REFRIG_T_SENS1_INT: 28.4
+  response: |-
+    7B0100D624EEF008302
+    7B0216F02AC00000000
