@@ -1,0 +1,26 @@
+command_id: 746.7B0.222611|fc=1,din=03
+test_cases:
+- expected_values:
+    CUPRA_LEG_DEFLECTOR_T: 37.33333
+    CUPRA_PQ35_LEG_DEFL_T: 37.296
+  response: 7B00462261170
+- expected_values:
+    CUPRA_LEG_DEFLECTOR_T: 38
+    CUPRA_PQ35_LEG_DEFL_T: 37.962
+  response: 7B00462261172
+- expected_values:
+    CUPRA_LEG_DEFLECTOR_T: 40.66667
+    CUPRA_PQ35_LEG_DEFL_T: 40.626
+  response: 7B0046226117A
+- expected_values:
+    CUPRA_LEG_DEFLECTOR_T: 42
+    CUPRA_PQ35_LEG_DEFL_T: 41.958
+  response: 7B0046226117E
+- expected_values:
+    CUPRA_LEG_DEFLECTOR_T: 42.66667
+    CUPRA_PQ35_LEG_DEFL_T: 42.624
+  response: 7B00462261180
+- expected_values:
+    CUPRA_LEG_DEFLECTOR_T: 43.33333
+    CUPRA_PQ35_LEG_DEFL_T: 43.29
+  response: 7B00462261182
