@@ -1,0 +1,34 @@
+command_id: 746.7B0.22260D|fc=1
+test_cases:
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 36.66667
+    CUPRA_FR_DEFL_T: 36.63
+  response: 7B00462260D6E
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 40.66667
+    CUPRA_FR_DEFL_T: 40.626
+  response: 7B00462260D7A
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 41.33333
+    CUPRA_FR_DEFL_T: 41.292
+  response: 7B00462260D7C
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 43.33333
+    CUPRA_FR_DEFL_T: 43.29
+  response: 7B00462260D82
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 43.66667
+    CUPRA_FR_DEFL_T: 43.623
+  response: 7B00462260D83
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 44
+    CUPRA_FR_DEFL_T: 43.956
+  response: 7B00462260D84
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 44.66667
+    CUPRA_FR_DEFL_T: 44.622
+  response: 7B00462260D86
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 45.66667
+    CUPRA_FR_DEFL_T: 45.621
+  response: 7B00462260D89
