@@ -1,0 +1,20 @@
+command_id: 746.7B0.222611|fc=1,din=03
+test_cases:
+- expected_values:
+    BORN_CLIMATE_LEG_DEFL_T: 37.33333
+  response: 7B00462261170
+- expected_values:
+    BORN_CLIMATE_LEG_DEFL_T: 38
+  response: 7B00462261172
+- expected_values:
+    BORN_CLIMATE_LEG_DEFL_T: 40.66667
+  response: 7B0046226117A
+- expected_values:
+    BORN_CLIMATE_LEG_DEFL_T: 42
+  response: 7B0046226117E
+- expected_values:
+    BORN_CLIMATE_LEG_DEFL_T: 42.66667
+  response: 7B00462261180
+- expected_values:
+    BORN_CLIMATE_LEG_DEFL_T: 43.33333
+  response: 7B00462261182

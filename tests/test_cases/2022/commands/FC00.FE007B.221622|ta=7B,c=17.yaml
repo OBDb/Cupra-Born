@@ -1,8 +1,8 @@
 command_id: FC00.FE007B.221622|ta=7B,c=17
 test_cases:
 - expected_values:
-    CUPRA_HVBAT_ECU_T: 14
+    BORN_HVBAT_ECU_T: 14
   response: 17FE007B0462162240
 - expected_values:
-    CUPRA_HVBAT_ECU_T: 48
+    BORN_HVBAT_ECU_T: 48
   response: 17FE007B0462162262

@@ -1,29 +1,32 @@
 command_id: 744.7AE.221525|fc=1
 test_cases:
 - expected_values:
-    CUPRA_OBC_V_PROX_A: 1966
+    BORN_OBC_V_PROX_A: 1966
   response: 7AE0562152507AE
 - expected_values:
-    CUPRA_OBC_V_PROX_A: 3884
+    BORN_OBC_V_PROX_A: 3884
   response: 7AE056215250F2C
 - expected_values:
-    CUPRA_OBC_V_PROX_A: 3891
+    BORN_OBC_V_PROX_A: 3891
   response: 7AE056215250F33
 - expected_values:
-    CUPRA_OBC_V_PROX_A: 3898
+    BORN_OBC_V_PROX_A: 3898
   response: 7AE056215250F3A
 - expected_values:
-    CUPRA_OBC_V_PROX_A: 3905
+    BORN_OBC_V_PROX_A: 3905
   response: 7AE056215250F41
 - expected_values:
-    CUPRA_OBC_V_PROX_A: 3911
+    BORN_OBC_V_PROX_A: 3911
   response: 7AE056215250F47
 - expected_values:
-    CUPRA_OBC_V_PROX_A: 4669
+    BORN_OBC_V_PROX_A: 4669
   response: 7AE05621525123D
 - expected_values:
-    CUPRA_OBC_V_PROX_A: 4676
+    BORN_OBC_V_PROX_A: 4676
   response: 7AE056215251244
 - expected_values:
-    CUPRA_OBC_V_PROX_A: 4683
+    BORN_OBC_V_PROX_A: 4683
   response: 7AE05621525124B
+- expected_values:
+    BORN_OBC_V_PROX_A: 4690
+  response: 7AE056215251252

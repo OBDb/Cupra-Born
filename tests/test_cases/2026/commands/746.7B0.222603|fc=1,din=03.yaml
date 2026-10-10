@@ -1,8 +1,8 @@
 command_id: 746.7B0.222603|fc=1,din=03
 test_cases:
 - expected_values:
-    CUPRA_PQ35_AC_COMP_SPD: 0
+    BORN_A_C_CMPR_SPEED: 0
   response: 7B00462260300
 - expected_values:
-    CUPRA_PQ35_AC_COMP_SPD: 2400
+    BORN_A_C_CMPR_SPEED: 2400
   response: 7B00462260318

@@ -1,14 +1,14 @@
 command_id: FC00.FE0076.224675|ta=76,c=17
 test_cases:
 - expected_values:
-    CUPRA_HVBAT_V_TRAC: 369
+    BORN_HVBAT_V_TRAC: 369
   response: 17FE0076056246750E6A
 - expected_values:
-    CUPRA_HVBAT_V_TRAC: 383.8
+    BORN_HVBAT_V_TRAC: 383.8
   response: 17FE0076056246750EFE
 - expected_values:
-    CUPRA_HVBAT_V_TRAC: 384
+    BORN_HVBAT_V_TRAC: 384
   response: 17FE0076056246750F00
 - expected_values:
-    CUPRA_HVBAT_V_TRAC: 438.5
+    BORN_HVBAT_V_TRAC: 438.5
   response: 17FE0076056246751121

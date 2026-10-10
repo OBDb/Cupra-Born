@@ -1,11 +1,11 @@
 command_id: FC00.FE00B9.22465B|ta=B9,c=17
 test_cases:
 - expected_values:
-    CUPRA_DCDC_I_ALT: 0
+    BORN_DCDC_I_ALT: 0
   response: 17FE00B90562465B0000
 - expected_values:
-    CUPRA_DCDC_I_ALT: 15.9375
+    BORN_DCDC_I_ALT: 15.9375
   response: 17FE00B90562465B00FF
 - expected_values:
-    CUPRA_DCDC_I_ALT: 32.125
+    BORN_DCDC_I_ALT: 32.125
   response: 17FE00B90562465B0202

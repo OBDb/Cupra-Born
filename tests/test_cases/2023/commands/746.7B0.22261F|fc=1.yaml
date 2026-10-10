@@ -1,0 +1,8 @@
+command_id: 746.7B0.22261F|fc=1
+test_cases:
+- expected_values:
+    BORN_RECIRC_FLAP_CMD_STEPS: 154
+  response: 7B00562261F009A
+- expected_values:
+    BORN_RECIRC_FLAP_CMD_STEPS: 174
+  response: 7B00562261F00AE

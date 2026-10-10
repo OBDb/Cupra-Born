@@ -1,0 +1,14 @@
+command_id: 744.7AE.2215E2|fc=1,din=03
+test_cases:
+- expected_values:
+    BORN_CHRGR_COOLANT_T: 26
+  response: 7AE046215E242
+- expected_values:
+    BORN_CHRGR_COOLANT_T: 27
+  response: 7AE046215E243
+- expected_values:
+    BORN_CHRGR_COOLANT_T: 28
+  response: 7AE046215E244
+- expected_values:
+    BORN_CHRGR_COOLANT_T: 29
+  response: 7AE046215E245

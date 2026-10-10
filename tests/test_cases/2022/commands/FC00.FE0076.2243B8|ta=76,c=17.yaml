@@ -1,8 +1,8 @@
 command_id: FC00.FE0076.2243B8|ta=76,c=17
 test_cases:
 - expected_values:
-    CUPRA_DCDC_T_COOL: 13.9
+    BORN_DCDC_T_COOL: 13.9
   response: 17FE0076056243B8008B
 - expected_values:
-    CUPRA_DCDC_T_COOL: 23.2
+    BORN_DCDC_T_COOL: 23.2
   response: 17FE0076056243B800E8

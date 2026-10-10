@@ -1,0 +1,11 @@
+command_id: 746.7B0.222622|fc=1,din=03
+test_cases:
+- expected_values:
+    BORN_FRONT_LEFT_T_FLAP_ACT: 0
+  response: 7B006622622002A00
+- expected_values:
+    BORN_FRONT_LEFT_T_FLAP_ACT: 58
+  response: 7B006622622008B74
+- expected_values:
+    BORN_FRONT_LEFT_T_FLAP_ACT: 59
+  response: 7B006622622008D76
