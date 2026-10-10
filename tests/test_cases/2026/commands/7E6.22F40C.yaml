@@ -1,0 +1,5 @@
+command_id: 7E6.22F40C
+test_cases:
+- expected_values:
+    CUPRA_MOTOR_RPM_SAE: 0
+  response: 18DAF1030562F40C0000
