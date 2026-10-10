@@ -1,0 +1,14 @@
+command_id: 746.7B0.22260D|fc=1
+test_cases:
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 38.33333
+    CUPRA_FR_DEFL_T: 38.295
+  response: 7B00462260D73
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 42.66667
+    CUPRA_FR_DEFL_T: 42.624
+  response: 7B00462260D80
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 62
+    CUPRA_FR_DEFL_T: 61.938
+  response: 7B00462260DBA
