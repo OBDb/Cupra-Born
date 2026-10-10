@@ -1,0 +1,42 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    CUPRA_C7_CABIN_T: 0.78125
+    CUPRA_CABIN_T: 20
+  response: 7B00562261300C8
+- expected_values:
+    CUPRA_C7_CABIN_T: 1.26953
+    CUPRA_CABIN_T: 32.5
+  response: 7B0056226130145
+- expected_values:
+    CUPRA_C7_CABIN_T: 1.27344
+    CUPRA_CABIN_T: 32.6
+  response: 7B0056226130146
+- expected_values:
+    CUPRA_C7_CABIN_T: 1.27734
+    CUPRA_CABIN_T: 32.7
+  response: 7B0056226130147
+- expected_values:
+    CUPRA_C7_CABIN_T: 1.28516
+    CUPRA_CABIN_T: 32.9
+  response: 7B0056226130149
+- expected_values:
+    CUPRA_C7_CABIN_T: 1.28906
+    CUPRA_CABIN_T: 33
+  response: 7B005622613014A
+- expected_values:
+    CUPRA_C7_CABIN_T: 1.29297
+    CUPRA_CABIN_T: 33.1
+  response: 7B005622613014B
+- expected_values:
+    CUPRA_C7_CABIN_T: 1.30078
+    CUPRA_CABIN_T: 33.3
+  response: 7B005622613014D
+- expected_values:
+    CUPRA_C7_CABIN_T: 1.30469
+    CUPRA_CABIN_T: 33.4
+  response: 7B005622613014E
+- expected_values:
+    CUPRA_C7_CABIN_T: 1.30859
+    CUPRA_CABIN_T: 33.5
+  response: 7B005622613014F

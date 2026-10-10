@@ -1,0 +1,9 @@
+command_id: 744.7AE.221507|fc=1,din=03
+test_cases:
+- expected_values:
+    CUPRA_CHRGR_RAIL1_E: 2315.7
+    CUPRA_CHRGR_RAIL2_E: 2310.8
+    CUPRA_CHRGR_RAIL3_E: 2311.5
+  response: |-
+    7AE100C621507005A75
+    7AE21005A44005A4BCC
