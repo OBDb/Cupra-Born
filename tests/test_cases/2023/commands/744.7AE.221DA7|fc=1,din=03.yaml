@@ -1,0 +1,11 @@
+command_id: 744.7AE.221DA7|fc=1,din=03
+test_cases:
+- expected_values:
+    BORN_OBC_HIGH_V_OUTPUT: 0
+  response: 7AE05621DA70000
+- expected_values:
+    BORN_OBC_HIGH_V_OUTPUT: 384.3
+  response: 7AE05621DA70F03
+- expected_values:
+    BORN_OBC_HIGH_V_OUTPUT: 393
+  response: 7AE05621DA70F5A

@@ -1,0 +1,20 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    BORN_HVAC_EVAP_T: 47
+  response: 7B00562261201D6
+- expected_values:
+    BORN_HVAC_EVAP_T: 50
+  response: 7B00562261201F4
+- expected_values:
+    BORN_HVAC_EVAP_T: 57
+  response: 7B005622612023A
+- expected_values:
+    BORN_HVAC_EVAP_T: 58
+  response: 7B0056226120244
+- expected_values:
+    BORN_HVAC_EVAP_T: 62
+  response: 7B005622612026C
+- expected_values:
+    BORN_HVAC_EVAP_T: 63
+  response: 7B0056226120276

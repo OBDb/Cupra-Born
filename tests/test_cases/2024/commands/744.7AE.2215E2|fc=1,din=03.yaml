@@ -1,23 +1,23 @@
 command_id: 744.7AE.2215E2|fc=1,din=03
 test_cases:
 - expected_values:
-    CUPRA_CHRGR_COOLANT_T: 26
+    BORN_CHRGR_COOLANT_T: 26
   response: 7AE046215E242
 - expected_values:
-    CUPRA_CHRGR_COOLANT_T: 30
+    BORN_CHRGR_COOLANT_T: 30
   response: 7AE046215E246
 - expected_values:
-    CUPRA_CHRGR_COOLANT_T: 31
+    BORN_CHRGR_COOLANT_T: 31
   response: 7AE046215E247
 - expected_values:
-    CUPRA_CHRGR_COOLANT_T: 32
+    BORN_CHRGR_COOLANT_T: 32
   response: 7AE046215E248
 - expected_values:
-    CUPRA_CHRGR_COOLANT_T: 33
+    BORN_CHRGR_COOLANT_T: 33
   response: 7AE046215E249
 - expected_values:
-    CUPRA_CHRGR_COOLANT_T: 35
+    BORN_CHRGR_COOLANT_T: 35
   response: 7AE046215E24B
 - expected_values:
-    CUPRA_CHRGR_COOLANT_T: 36
+    BORN_CHRGR_COOLANT_T: 36
   response: 7AE046215E24C

@@ -1,17 +1,17 @@
 command_id: FC00.FE007B.221E3E|ta=7B,c=17
 test_cases:
 - expected_values:
-    CUPRA_HVBAT_I_DC_2: -223.31
+    BORN_HVBAT_I_DC_2: -223.31
   response: 17FE007B07621E3E0001F2B5
 - expected_values:
-    CUPRA_HVBAT_I_DC_2: -194.28
+    BORN_HVBAT_I_DC_2: -194.28
   response: 17FE007B07621E3E0001FE0C
 - expected_values:
-    CUPRA_HVBAT_I_DC_2: -172.49
+    BORN_HVBAT_I_DC_2: -172.49
   response: 17FE007B07621E3E0002068F
 - expected_values:
-    CUPRA_HVBAT_I_DC_2: -140.62
+    BORN_HVBAT_I_DC_2: -140.62
   response: 17FE007B07621E3E00021302
 - expected_values:
-    CUPRA_HVBAT_I_DC_2: 2.71
+    BORN_HVBAT_I_DC_2: 2.71
   response: 17FE007B07621E3E00024AFF

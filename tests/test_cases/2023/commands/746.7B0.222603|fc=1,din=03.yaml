@@ -1,0 +1,11 @@
+command_id: 746.7B0.222603|fc=1,din=03
+test_cases:
+- expected_values:
+    BORN_A_C_CMPR_SPEED: 0
+  response: 7B00462260300
+- expected_values:
+    BORN_A_C_CMPR_SPEED: 2000
+  response: 7B00462260314
+- expected_values:
+    BORN_A_C_CMPR_SPEED: 3000
+  response: 7B0046226031E

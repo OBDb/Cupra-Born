@@ -1,0 +1,10 @@
+command_id: 767.7D1.220838|fc=1
+test_cases:
+- expected_values:
+    BORN_ECALL_BATTERY_CHARGE_STATUS: 2
+    BORN_ECALL_SOC: 96
+  response: 7D1056208380260
+- expected_values:
+    BORN_ECALL_BATTERY_CHARGE_STATUS: 2
+    BORN_ECALL_SOC: 97
+  response: 7D1056208380261

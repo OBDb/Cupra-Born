@@ -1,0 +1,14 @@
+command_id: 746.7B0.22261E|fc=1
+test_cases:
+- expected_values:
+    BORN_RECIRC_FLAP_ACT_PCT: 0
+    BORN_RECIRC_FLAP_ACT_STEPS: 38
+  response: 7B00662261E002600
+- expected_values:
+    BORN_RECIRC_FLAP_ACT_PCT: 66
+    BORN_RECIRC_FLAP_ACT_STEPS: 155
+  response: 7B00662261E009B84
+- expected_values:
+    BORN_RECIRC_FLAP_ACT_PCT: 76
+    BORN_RECIRC_FLAP_ACT_STEPS: 172
+  response: 7B00662261E00AC98

@@ -1,0 +1,23 @@
+command_id: 710.77A.222A0E
+test_cases:
+- expected_values:
+    BORN_SSB_R: 0
+  response: 77A04622A0E00
+- expected_values:
+    BORN_SSB_R: 0.6
+  response: 77A04622A0E03
+- expected_values:
+    BORN_SSB_R: 0.8
+  response: 77A04622A0E04
+- expected_values:
+    BORN_SSB_R: 6.6
+  response: 77A04622A0E21
+- expected_values:
+    BORN_SSB_R: 8
+  response: 77A04622A0E28
+- expected_values:
+    BORN_SSB_R: 27
+  response: 77A04622A0E87
+- expected_values:
+    BORN_SSB_R: 29
+  response: 77A04622A0E91

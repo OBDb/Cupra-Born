@@ -1,0 +1,17 @@
+command_id: 746.7B0.22260C|fc=1,din=03
+test_cases:
+- expected_values:
+    BORN_FRONT_LEFT_DEFL_T: 39.96
+  response: 7B00462260C78
+- expected_values:
+    BORN_FRONT_LEFT_DEFL_T: 40.626
+  response: 7B00462260C7A
+- expected_values:
+    BORN_FRONT_LEFT_DEFL_T: 42.624
+  response: 7B00462260C80
+- expected_values:
+    BORN_FRONT_LEFT_DEFL_T: 43.29
+  response: 7B00462260C82
+- expected_values:
+    BORN_FRONT_LEFT_DEFL_T: 43.956
+  response: 7B00462260C84

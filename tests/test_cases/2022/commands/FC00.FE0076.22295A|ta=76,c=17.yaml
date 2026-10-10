@@ -1,11 +1,11 @@
 command_id: FC00.FE0076.22295A|ta=76,c=17
 test_cases:
 - expected_values:
-    CUPRA_ENG_ODO: 27850
+    BORN_ENG_ODO: 27850
   response: 17FE00760662295A006CCA
 - expected_values:
-    CUPRA_ENG_ODO: 28159
+    BORN_ENG_ODO: 28159
   response: 17FE00760662295A006DFF
 - expected_values:
-    CUPRA_ENG_ODO: 28160
+    BORN_ENG_ODO: 28160
   response: 17FE00760662295A006E00
