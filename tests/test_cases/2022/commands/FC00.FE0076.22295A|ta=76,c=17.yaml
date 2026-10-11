@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     BORN_ENG_ODO: 28160
   response: 17FE00760662295A006E00
+- expected_values:
+    BORN_ENG_ODO: 43551
+  response: 17FE00760662295A00AA1F
