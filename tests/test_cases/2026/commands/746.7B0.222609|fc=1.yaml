@@ -4,5 +4,8 @@ test_cases:
     BORN_AAT_V2: -11
   response: 7B0046226094E
 - expected_values:
+    BORN_AAT_V2: 11
+  response: 7B0046226097A
+- expected_values:
     BORN_AAT_V2: null
   response: 7B004622609FF
