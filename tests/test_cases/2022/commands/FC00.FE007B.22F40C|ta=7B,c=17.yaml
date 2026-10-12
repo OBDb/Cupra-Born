@@ -4,5 +4,11 @@ test_cases:
     BORN_ELDRIVE_MOTOR_RPM: 0
   response: 17FE007B0562F40C0000
 - expected_values:
-    BORN_ELDRIVE_MOTOR_RPM: 16383.75
+    BORN_ELDRIVE_MOTOR_RPM: 639
+  response: 17FE007B0562F40C09FC
+- expected_values:
+    BORN_ELDRIVE_MOTOR_RPM: 13315
+  response: 17FE007B0562F40CD00C
+- expected_values:
+    BORN_ELDRIVE_MOTOR_RPM: null
   response: 17FE007B0562F40CFFFF

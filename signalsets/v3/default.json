@@ -230,9 +230,9 @@
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "4EEF"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
-    {"id": "BORN_AC_REFRIG_P_SENS1",     "path": "Climate", "fmt": {           "len": 16, "max": 576.708,             "mul": 88, "div": 10000,             "nullmax": 576.708, "unit": "bars"    }, "name": "A/C refrigerant pressure, sensor 1"},
-    {"id": "BORN_AC_REFRIG_T_SENS1",     "path": "Climate", "fmt": {"bix": 16, "len": 16, "max": 6513.5,  "min": -40, "mul": 10, "div": 100,   "add": -40, "nullmax": 6513.5,  "unit": "celsius" }, "name": "A/C refrigerant temperature, sensor 1"},
-    {"id": "BORN_AC_REFRIG_T_SENS1_INT", "path": "Climate", "fmt": {"bix": 32, "len": 16, "max": 6513.5,  "min": -40, "mul": 10, "div": 100,   "add": -40, "nullmax": 6513.5,  "unit": "celsius" }, "name": "A/C refrigerant temperature, sensor 1 interior"}
+    {"id": "BORN_AC_REFRIG_P_SENS1",     "path": "Climate", "fmt": {           "len": 16, "max": 576.708,             "mul": 88, "div": 10000,             "nullmax": 36.0272, "unit": "bars"    }, "name": "A/C refrigerant pressure, sensor 1"},
+    {"id": "BORN_AC_REFRIG_T_SENS1",     "path": "Climate", "fmt": {"bix": 16, "len": 16, "max": 369.4,   "min": -40, "mul": 10, "div": 100,   "add": -40, "nullmax": 369.4,   "unit": "celsius" }, "name": "A/C refrigerant temperature, sensor 1"},
+    {"id": "BORN_AC_REFRIG_T_SENS1_INT", "path": "Climate", "fmt": {"bix": 32, "len": 16, "max": 369.4,   "min": -40, "mul": 10, "div": 100,   "add": -40, "nullmax": 369.4,   "unit": "celsius" }, "name": "A/C refrigerant temperature, sensor 1 interior"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "F449"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
@@ -384,13 +384,13 @@
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E33"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_HVBAT_CELL_V_MAX_V2", "path": "Battery", "fmt": {           "len": 16, "max": 15.997, "mul": 2441, "div": 10000, "unit": "volts"  }, "name": "HV battery cell voltage, maximum"},
-    {"id": "BORN_HVBAT_CELL_V_MAX_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,                             "unit": "scalar" }, "name": "HV battery cell voltage max, ID"}
+    {"id": "BORN_HVBAT_CELL_V_MAX_V2", "path": "Battery", "fmt": {           "len": 16, "max": 15.999, "div": 4096, "unit": "volts"  }, "name": "HV battery cell voltage, maximum"},
+    {"id": "BORN_HVBAT_CELL_V_MAX_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,               "unit": "scalar" }, "name": "HV battery cell voltage max, ID"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E34"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_HVBAT_CELL_V_MIN_V2", "path": "Battery", "fmt": {           "len": 16, "max": 15.997, "mul": 2441, "div": 10000, "unit": "volts"  }, "name": "HV battery cell voltage, minimum"},
-    {"id": "BORN_HVBAT_CELL_V_MIN_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,                             "unit": "scalar" }, "name": "HV battery cell voltage min, ID"}
+    {"id": "BORN_HVBAT_CELL_V_MIN_V2", "path": "Battery", "fmt": {           "len": 16, "max": 15.999, "div": 4096, "unit": "volts"  }, "name": "HV battery cell voltage, minimum"},
+    {"id": "BORN_HVBAT_CELL_V_MIN_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,               "unit": "scalar" }, "name": "HV battery cell voltage min, ID"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E36"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
@@ -930,31 +930,31 @@
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "7426"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_HVBAT_MOD_T_18", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "HV battery module temperature, #18"}
+    {"id": "BORN_HVBAT_MOD_T_18", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "unit": "celsius" }, "name": "HV battery module temperature, #18"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "7427"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_HVBAT_MOD_T_19", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "HV battery module temperature, #19"}
+    {"id": "BORN_HVBAT_MOD_T_19", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #19"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "7428"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_HVBAT_MOD_T_20", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "HV battery module temperature, #20"}
+    {"id": "BORN_HVBAT_MOD_T_20", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #20"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "7429"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_HVBAT_MOD_T_21", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "HV battery module temperature, #21"}
+    {"id": "BORN_HVBAT_MOD_T_21", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #21"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "742A"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_HVBAT_MOD_T_22", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "HV battery module temperature, #22"}
+    {"id": "BORN_HVBAT_MOD_T_22", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #22"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "742B"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_HVBAT_MOD_T_23", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "HV battery module temperature, #23"}
+    {"id": "BORN_HVBAT_MOD_T_23", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #23"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "742C"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_HVBAT_MOD_T_24", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "HV battery module temperature, #24"}
+    {"id": "BORN_HVBAT_MOD_T_24", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #24"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "743B"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
@@ -972,7 +972,7 @@
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "F40C"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_ELDRIVE_MOTOR_RPM", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Motor RPM"}
+    {"id": "BORN_ELDRIVE_MOTOR_RPM", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "nullmax": 16383.75, "unit": "rpm" }, "name": "Motor RPM"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
