@@ -297,7 +297,7 @@
   "signals": [
     {"id": "BORN_ENG_ODO", "path": "Trips", "fmt": { "len": 24, "max": 200000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "cmd": {"22": "29D4"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "cmd": {"22": "29D4"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "BORN_MOTOR_TRQ_REQ", "path": "Drivetrain", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Motor torque requested"}
   ]},
