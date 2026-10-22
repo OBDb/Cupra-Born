@@ -4,5 +4,5 @@ test_cases:
     BORN_SOC_V2: 12.4
   response: 17FE007B0462028C1F
 - expected_values:
-    BORN_SOC_V2: 96.4
-  response: 17FE007B0462028CF1
+    BORN_SOC_V2: 96.8
+  response: 17FE007B0462028CF2
