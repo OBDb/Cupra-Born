@@ -31,11 +31,11 @@
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB5"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
-    {"id": "BORN_RANGE_EST_CAN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated reserve range"}
+    {"id": "BORN_RANGE_EST_CAN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Range remaining, estimated", "suggestedMetric": "electricRange"}
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
-    {"id": "BORN_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "miles" }, "name": "Range remaining, displayed", "suggestedMetric": "electricRange"}
+    {"id": "BORN_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Range remaining, displayed (cluster distance unit)"}
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
@@ -303,7 +303,7 @@
   ]},
 { "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "cmd": {"22": "3DEF"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
   "signals": [
-    {"id": "BORN_SOC_FC00", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "BORN_SOC_FC00", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "State of charge, BMS (gateway)"}
   ]},
 { "hdr": "FC00", "rax": "FE0076", "pri": "17", "tst": "76", "cmd": {"22": "3DF8"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
   "signals": [
@@ -323,7 +323,7 @@
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "028C"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_SOC_V2", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 250, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "BORN_SOC_V2", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 20.4, "div": 46, "add": -6.4, "unit": "percent" }, "name": "State of charge, displayed", "suggestedMetric": "stateOfCharge"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1620"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
@@ -406,11 +406,11 @@
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E3B"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_DC_BATTERY_V", "path": "Battery", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "volts" }, "name": "DC battery voltage", "suggestedMetric": "starterBatteryVoltage"}
+    {"id": "BORN_DC_BATTERY_V", "path": "Battery", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "volts" }, "name": "HV battery voltage"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E3C"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
-    {"id": "BORN_HVBAT_V_CELLS_SUM", "path": "Battery", "fmt": { "len": 32, "max": 524287.99, "min": -524288, "mul": 244140625, "div": 1000000000, "sign": true, "unit": "volts" }, "name": "Battery voltage, sum of all cells"}
+    {"id": "BORN_HVBAT_V_CELLS_SUM", "path": "Battery", "fmt": { "len": 32, "max": 524.28799, "min": -524.288, "mul": 244140625, "div": 1000000000000, "sign": true, "unit": "volts" }, "name": "Battery voltage, sum of all cells"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E3E"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [

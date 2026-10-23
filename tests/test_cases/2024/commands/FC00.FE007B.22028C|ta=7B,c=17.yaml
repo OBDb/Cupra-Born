@@ -1,14 +1,14 @@
 command_id: FC00.FE007B.22028C|ta=7B,c=17
 test_cases:
 - expected_values:
-    BORN_SOC_V2: 40
+    BORN_SOC_V2: 37.94783
   response: 17FE007B0462028C64
 - expected_values:
-    BORN_SOC_V2: 40.4
+    BORN_SOC_V2: 38.3913
   response: 17FE007B0462028C65
 - expected_values:
-    BORN_SOC_V2: 90.4
+    BORN_SOC_V2: 93.82609
   response: 17FE007B0462028CE2
 - expected_values:
-    BORN_SOC_V2: 96
+    BORN_SOC_V2: 100
   response: 17FE007B0462028CF0
