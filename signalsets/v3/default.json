@@ -994,8 +994,11 @@
   ]}
 ],
 "synthetics": [
-  { "id": "BORN_RANGE_DISPLAYED", "path": "Trips", "name": "Range remaining, displayed", "max": 2044, "unit": "kilometers", "suggestedMetric": "electricRange", "formula": {
+  { "id": "BORN_RANGE_EV", "path": "Trips", "name": "Battery range", "max": 2044, "unit": "kilometers", "suggestedMetric": "electricRange", "formula": {
     "op": "unit", "value": "BORN_RANGE_PRI_RAW", "key": "BORN_RANGE_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }},
+  { "id": "BORN_RANGE_TOTAL", "path": "Trips", "name": "Total range", "max": 2044, "unit": "kilometers", "suggestedMetric": "electricRange", "formula": {
+    "op": "unit", "value": "BORN_RANGE", "key": "BORN_RANGE_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
   }}
 ]
 }
