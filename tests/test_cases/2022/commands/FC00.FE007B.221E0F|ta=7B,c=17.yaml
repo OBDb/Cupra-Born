@@ -6,8 +6,8 @@ test_cases:
   response: 17FE007B07621E0F01980007
 - expected_values:
     BORN_HVBAT_T_MIN: 7.625
-    BORN_HVBAT_T_MIN_ID: 10
-  response: 17FE007B07621E0F01E8000A
+    BORN_HVBAT_T_MIN_ID: 17
+  response: 17FE007B07621E0F01E80011
 - expected_values:
     BORN_HVBAT_T_MIN: 7.875
     BORN_HVBAT_T_MIN_ID: 8
