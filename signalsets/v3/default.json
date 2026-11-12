@@ -35,8 +35,8 @@
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
-    {"id": "BORN_RANGE",         "path": "Trips", "fmt": {           "len": 16, "max": 2045, "nullmax": 2045, "unit": "scalar" }, "name": "Total range, in the cluster's unit"},
-    {"id": "BORN_RANGE_PRI_RAW", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 2045, "nullmax": 2045, "unit": "scalar" }, "name": "Battery range, in the cluster's unit"},
+    {"id": "BORN_RANGE_TOTAL_RAW", "path": "Trips", "fmt": {           "len": 16, "max": 2045, "nullmax": 2045, "unit": "scalar" }, "name": "Total range, in the cluster's unit"},
+    {"id": "BORN_RANGE_PRI_RAW",   "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 2045, "nullmax": 2045, "unit": "scalar" }, "name": "Battery range, in the cluster's unit"},
     {"id": "BORN_RANGE_UNIT", "path": "Trips", "name": "Range distance unit", "fmt": {"bix": 55, "len": 1, "map": {
           "0": { "description": "Kilometers", "value": "KM" },
           "1": { "description": "Miles",      "value": "MI" }
@@ -998,7 +998,7 @@
     "op": "unit", "value": "BORN_RANGE_PRI_RAW", "key": "BORN_RANGE_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
   }},
   { "id": "BORN_RANGE_TOTAL", "path": "Trips", "name": "Total range", "max": 2044, "unit": "kilometers", "suggestedMetric": "electricRange", "formula": {
-    "op": "unit", "value": "BORN_RANGE", "key": "BORN_RANGE_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+    "op": "unit", "value": "BORN_RANGE_TOTAL_RAW", "key": "BORN_RANGE_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
   }}
 ]
 }
