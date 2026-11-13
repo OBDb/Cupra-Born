@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     BORN_CHRGR_DUR_TOTAL: 61909
   response: 7AE076215EE0000F1D5
+- expected_values:
+    BORN_CHRGR_DUR_TOTAL: 103917
+  response: 7AE076215EE000195ED
