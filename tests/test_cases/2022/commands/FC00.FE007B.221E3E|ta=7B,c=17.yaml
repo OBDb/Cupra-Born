@@ -10,8 +10,8 @@ test_cases:
     BORN_HVBAT_I_DC_2: -172.49
   response: 17FE007B07621E3E0002068F
 - expected_values:
-    BORN_HVBAT_I_DC_2: -140.62
-  response: 17FE007B07621E3E00021302
+    BORN_HVBAT_I_DC_2: -25.43
+  response: 17FE007B07621E3E00024001
 - expected_values:
     BORN_HVBAT_I_DC_2: 2.71
   response: 17FE007B07621E3E00024AFF
