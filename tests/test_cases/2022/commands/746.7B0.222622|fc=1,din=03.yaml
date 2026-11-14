@@ -4,5 +4,5 @@ test_cases:
     BORN_FRONT_LEFT_T_FLAP_ACT: 0
   response: 7B006622622002C00
 - expected_values:
-    BORN_FRONT_LEFT_T_FLAP_ACT: 98
-  response: 7B00662262200C8C4
+    BORN_FRONT_LEFT_T_FLAP_ACT: 100
+  response: 7B00662262200CEC8
