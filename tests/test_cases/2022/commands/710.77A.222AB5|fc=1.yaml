@@ -1,6 +1,9 @@
 command_id: 710.77A.222AB5|fc=1
 test_cases:
 - expected_values:
+    BORN_RANGE_EST_CAN: 210
+  response: "77A 10 0D 62 2A B5 00 D2 00 \n77A 21 00 00 D2 00 00 00 00 "
+- expected_values:
     BORN_RANGE_EST_CAN: 10
   response: |-
     77A100D622AB5000A00
