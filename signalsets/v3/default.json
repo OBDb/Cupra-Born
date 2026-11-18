@@ -938,27 +938,27 @@
   "signals": [
     {"id": "BORN_HVBAT_MOD_T_18", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "unit": "celsius" }, "name": "HV battery module temperature, #18"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "7427"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "7427"}, "freq": 1,
   "signals": [
     {"id": "BORN_HVBAT_MOD_T_19", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #19"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "7428"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "7428"}, "freq": 1,
   "signals": [
     {"id": "BORN_HVBAT_MOD_T_20", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #20"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "7429"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "7429"}, "freq": 1,
   "signals": [
     {"id": "BORN_HVBAT_MOD_T_21", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #21"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "742A"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "742A"}, "freq": 1,
   "signals": [
     {"id": "BORN_HVBAT_MOD_T_22", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #22"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "742B"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "742B"}, "freq": 1,
   "signals": [
     {"id": "BORN_HVBAT_MOD_T_23", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #23"}
   ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "742C"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
+{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "dbg": true, "cmd": {"22": "742C"}, "freq": 1,
   "signals": [
     {"id": "BORN_HVBAT_MOD_T_24", "path": "Battery", "fmt": { "len": 16, "max": 8151.875, "min": -40, "div": 8, "add": -40, "nullmax": 87.75, "unit": "celsius" }, "name": "HV battery module temperature, #24"}
   ]},
